@@ -1,0 +1,56 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+body {
+width: 90%;
+margin: auto;
+font-family: monospace, arial;
+background: url(../assets/Scan.jpeg);
+background-position: center;
+background-size: cover;
+}
+
+.sidebar{
+  height: 500px;
+  border-radius: 25px;
+  width: 200px;
+  background-color: #FF6347;
+  float: left;
+  opacity: 0.6;
+}
+
+.blog_list h2{text-align: center;}
+
+.moon_list a {padding: 17.5em; text-decoration: none; color: black; outline:0;}
+
+.sidebar a {padding-left: 25%; text-decoration: line-through;;}
+
+#sidetext{text-align: center}
+
+.entries{ width: 780px; padding-left: 22%;}
+
+li {font-size: 15px; display: inline; padding: 0.5em; text-align: center;}
+
+ul {padding-right: 5%;}
+
+.pagination{padding-left: 44%;}
+
+#nav,#feature,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
+
+#footer-index{padding: 1em; padding-left: 40%;}
+
+#nav ul li a {text-decoration: none; color: black;}
+
+#feature,.news {height: 10em; margin-bottom: 1em; margin-bottom: 1em;}
+
+.ion-heart {color: black; font-size: 5rem;}

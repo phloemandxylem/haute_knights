@@ -1,0 +1,70 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+body {
+width: 90%;
+margin: auto;
+font-family: monospace;
+background: url(../assets/Scan.jpeg);
+background-position: center;
+background-size: cover;
+}
+
+li {font-size: 15px; display: inline; padding: 0.5em; text-align: center;}
+
+ul {padding-right: 5%; text-align: center; }
+
+section {overflow: auto; margin: 5%;}
+
+figcaption {padding-left: 20px;}
+
+p {text-align: center; font-size: 30px;}
+
+figure {
+display: block;
+width: 202px;
+height: 170px;
+background-color: #FFDAB9;
+padding: 3px;
+text-align: left;
+border-radius: 10;
+}
+
+figure img {
+width: 200px;
+height: 150px;
+border; 1px solid #d6d6d6;
+}
+
+#nav,#feature,#footer,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
+
+#rose {width:90%; height:90%; -webkit-transition:.4s all;}
+
+#nav ul li a {text-decoration: none; color: black;}
+
+.header {padding: 0.5em; text-align: center; margin: 40px 0px 20px 0px;}
+
+.entry {
+width: 220px;
+float: left;
+margin: 10px;
+height: 198px;
+padding-left: 7%;
+}
+
+.transition {
+ -webkit-transform: scale(2);
+ -moz-transform: scale(2);
+ -o-transform: scale(2);
+ transform: scale(2);
+}

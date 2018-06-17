@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <head>
+      <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="styles/form.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    </head>
+
+    <body>
+      <div id="header_logo">
+      <h1>Haute Knights</h1>
+      <h2>An Art Cache</h2>
+        <div id="nav">
+          <ul>
+            <li><a href="index.html">Hearth</a></li>
+            <li><a href="illustration.html">Illustration</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <section>
+      <div id="feature">
+        <div class="container">
+          <form action="contactform.php" method="POST">
+            <p class = "inputs_con">
+              Email <br>
+              <input
+              name="email"
+              size="64"
+              maxlength="64"/>
+            </p>
+
+            <p class = "inputs_con">
+              Name <br>
+              <input
+              name="realname"
+              size="64"
+              maxlength="64"/>
+            </p>
+
+            <p class = "inputs_con">
+              Subject <br>
+              <input
+              name="subject"
+              size="64"
+              maxlength="64"/>
+            </p>
+
+            <p class = "inputs_con">
+              <i>Drop a Line, Lemon-Lime!</i>
+            </p>
+
+            <textarea
+            name="body"
+            rows="10"
+            cols="60">
+            </textarea>
+
+            <p>
+              <input type="submit" name="send" value="Send Your Message"/>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

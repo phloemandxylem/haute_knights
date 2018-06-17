@@ -1,0 +1,22 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+
+body {
+width: 90%;
+margin: auto;
+font-family: monospace, arial;
+background: url(../assets/Scan.jpeg);
+background-position: center;
+background-size: cover;
+}
+
+a { text-decoration: none; color: black; }
+
+li {font-size: 15px; display: inline; padding: 0.5em; text-align: center;}
+
+ul {padding-right: 5%;}
+
+section {overflow: auto;}
+
+#nav,#feature,#footer,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
+
+p {text-align: center;}

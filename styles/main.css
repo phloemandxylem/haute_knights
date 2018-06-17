@@ -1,0 +1,44 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+body {
+width: 90%;
+margin: auto;
+font-family: monospace, arial;
+background: url(../assets/Scan.jpeg);
+background-position: center;
+background-size: cover;
+}
+
+li {font-size: 15px; display: inline; padding: 0.5em; text-align: center;}
+
+ul {padding-right: 5%;}
+
+section {overflow: auto;}
+
+#nav,#feature,#footer,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
+
+#nav ul li a {text-decoration: none; color: black;}
+
+#feature,.news {height: 10em; margin-bottom: 1em; margin-bottom: 1em;}
+
+.column1, .column2, .column3{
+width: 31.3%;
+float: left;
+margin: 1%;
+text-align: center;
+}
+
+.inputs_con {text-align:center}
+
+.ion-heart {color: black; font-size: 5rem;}
