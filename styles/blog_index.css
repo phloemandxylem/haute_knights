@@ -22,6 +22,7 @@ background-size: cover;
 
 .sidebar{
   height: 500px;
+  font-size: 10px;
   border-radius: 25px;
   width: 200px;
   background-color: #FF6347;
@@ -29,9 +30,9 @@ background-size: cover;
   opacity: 0.6;
 }
 
-.blog_list h2{text-align: center;}
+.blog_list h2{padding-left: 40.6%;}
 
-.moon_list a {padding: 17.5em; text-decoration: none; color: black; outline:0;}
+.moon_list a {padding-left: 22%; text-decoration: none; color: black; outline:0;}
 
 .sidebar a {padding-left: 25%; text-decoration: line-through;;}
 
@@ -47,7 +48,7 @@ ul {padding-right: 5%;}
 
 #nav,#feature,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
 
-#footer-index{padding: 1em; padding-left: 40%;}
+#footer-index{padding: 1em; padding-left: 38%;}
 
 #nav ul li a {text-decoration: none; color: black;}
 
