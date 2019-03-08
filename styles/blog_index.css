@@ -20,21 +20,23 @@ background-position: center;
 background-size: cover;
 }
 
+
 .sidebar{
-  height: 500px;
+  height: 400px;
   font-size: 10px;
   border-radius: 25px;
   width: 200px;
   background-color: #FF6347;
   float: left;
   opacity: 0.6;
+  padding-bottom: 30%;
 }
 
-.blog_list h2{padding-left: 40.6%;}
+.blog_list h2{padding-left: 42.6%;}
 
-.moon_list a {padding-left: 25%; text-decoration: none; color: black; outline:0;}
+.moon_list a {padding-left: 22%; text-decoration: none; color: black; outline:0;}
 
-.sidebar a {padding-left: 25%; text-decoration: line-through;;}
+.sidebar a {padding-left: 25%; text-decoration: line-through;}
 
 #sidetext{text-align: center}
 
@@ -46,12 +48,12 @@ ul {padding-right: 5%;}
 
 .pagination{padding-left: 44%;}
 
-#nav,#feature,#feature_title,#header_logo {padding: 0.5em; text-align: center;}
+#nav,#feature,#feature_title,#header_logo {padding: 0.1em; text-align: center;}
 
-#footer-index{padding: 1em; padding-left: 38%;}
+#footer-index{padding: 1em; padding-left: 50%;}
 
-#nav ul li a {text-decoration: none; color: black;}
+#nav ul li a {text-decoration: none; color: black; font-weight: bold;}
 
-#feature,.news {height: 10em; margin-bottom: 1em; margin-bottom: 1em;}
+#feature,.news {height: 8em; margin-bottom: 1em; margin-bottom: 1em;}
 
 .ion-heart {color: black; font-size: 5rem;}
