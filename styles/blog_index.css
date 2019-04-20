@@ -13,9 +13,10 @@
 
 body {
 width: 90%;
+height: 100%;
 margin: auto;
 font-family: monospace, arial;
-background: url(../assets/Scan.jpeg);
+background: url(../assets/blog_background.jpg);
 background-position: center;
 background-size: cover;
 }
@@ -34,7 +35,7 @@ background-size: cover;
 
 .blog_list h2{padding-left: 42.6%;}
 
-.moon_list a {padding-left: 22%; text-decoration: none; color: black; outline:0;}
+.moon_list a {padding-left: 26.5%; text-decoration: none; color: black; outline:0;}
 
 .sidebar a {padding-left: 25%; text-decoration: line-through;}
 
