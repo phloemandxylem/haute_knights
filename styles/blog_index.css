@@ -33,9 +33,13 @@ background-size: cover;
   padding-bottom: 30%;
 }
 
-.blog_list h2{padding-left: 42.6%;}
 
-.moon_list a {padding-left: 26.5%; text-decoration: none; color: black; outline:0;}
+
+#footer-index{padding: 1em; padding-left: 50%;}
+
+.blog_list h2{padding-left: 42.5%;}
+
+.moon_list a {text-align: center; padding-left: 25.6%; text-decoration: none; color: black; outline:0;}
 
 .sidebar a {padding-left: 25%; text-decoration: line-through;}
 
@@ -50,8 +54,6 @@ ul {padding-right: 5%;}
 .pagination{padding-left: 44%;}
 
 #nav,#feature,#feature_title,#header_logo {padding: 0.1em; text-align: center;}
-
-#footer-index{padding: 1em; padding-left: 50%;}
 
 #nav ul li a {text-decoration: none; color: black; font-weight: bold;}
 

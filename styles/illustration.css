@@ -50,7 +50,7 @@ border; 1px solid #d6d6d6;
 
 #rose {width:90%; height:90%; -webkit-transition:.4s all;}
 
-#nav ul li a {text-decoration: none; color: black;}
+#nav ul li a {text-decoration: none; color: black; font-weight: bold}
 
 .pixlist a {padding-right:1%; text-decoration: none; color: black; outline:0;}
 
